@@ -1,0 +1,292 @@
+/*             */
+/* - General - */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.headerMain {
+    background-color: rgb(46, 46, 46);
+    height: 150px; 
+    position: fixed; 
+    top:0px; 
+    z-index:1000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+}
+.show {
+    display: block;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(128, 81, 69);
+}
+
+section {
+    display: block;
+}
+
+div {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
+
+.banner {
+    width: 100%;
+    min-height: 50px;
+}
+
+.row {
+    padding: 0px 0px 0px 0px;
+}
+
+.content {
+    padding: 0px 15px 0px 15px;
+}
+
+/*                 */
+/* - Text Styles - */
+.clickable-light {
+    text-decoration: none;
+    color: rgb(209, 209, 209);
+    cursor: pointer;
+}
+
+.clickable-light:hover {
+    text-decoration:none;
+    color: rgb(168, 168, 168);
+    cursor: pointer;
+}
+.clickable-dark {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    cursor: pointer;
+}
+
+.clickable-dark:hover {
+    text-decoration:none;
+    color: rgb(165, 192, 218);
+    cursor: pointer;
+}
+
+.headerText {
+    font-size: 60px;
+    color: #c9c9c9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bodyText {
+    font-size: 40px;
+    color: #b3b3b3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bodyTextSm {
+    font-size: 28px;
+    color: #cfcfcf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bodyTextMono {
+    font-size: 40px;
+    color: #b3b3b3;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bodyTextMonoSm {
+    font-size: 28px;
+    color: #cfcfcf;
+    font-family: 'Courier New', Courier, monospace;
+}
+.tRight {
+    text-align: right;
+}
+.tLeft {
+    text-align: left;
+}
+.tBold {
+    font-weight: bold;
+}
+.tMed {
+    font-weight: lighter;
+}
+.tLight {
+    font-weight: 100;
+}
+
+.imgBlockHeight {
+    display: block;
+    height: 100%;
+    width: auto;
+}
+.imgBlockWidth {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.imgFitMid {
+    display: block;
+    height: 100%;
+}
+
+.spacer-xs {
+    height: 25px; 
+}
+.spacer-sm {
+    height: 50px; 
+}
+.spacer-md {
+    height: 75px; 
+}
+.spacer-lg {
+    height: 100px; 
+}
+.spacer-xl {
+    height: 125px;
+}
+.spacer-xxl {
+    height: 150px;
+}
+
+.sqr-3 {
+    width: 25%;
+    position: relative;
+    float: left;
+}
+
+.sqr-3:after {
+    padding-bottom: 100%;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    position: relative;
+    min-height: 1px;
+    float: left;
+}
+.col-1 {
+    width: 8.333333333%;
+}
+.col-2 {
+    width: 16.666666666%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.333333333%;
+}
+.col-5 {
+    width: 41.666666666%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.333333333%;
+}
+.col-8 {
+    width: 66.666666666%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.333333333%;
+}
+.col-11 {
+    width: 91.666666666%;
+}
+.col-12 {
+    width: 100%;
+}
+
+.push-05 {
+    left: 4.166666666%
+}
+.push-1 {
+    left: 8.333333333%
+}
+.push-15 {
+    left: 12.5%
+}
+.push-2 {
+    left: 16.666666666%;
+}
+.push-3 {
+    left: 25%;
+}
+.push-4 {
+    left: 33.333333333%;
+}
+.push-5 {
+    left: 41.666666666%;
+}
+.push-6 {
+    left: 50%;
+}
+.push-7 {
+    left: 58.333333333%;
+}
+.push-8 {
+    left: 66.666666666%;
+}
+.push-9 {
+    left: 75%;
+}
+.push-10 {
+    left: 83.333333333%;
+}
+.push-11 {
+    left: 91.666666666%;
+}
+.push-12 {
+    left: 100%;
+}
+
+.pull-05 {
+    left: -4.166666666%
+}
+.pull-1 {
+    left: 8.333333333%
+}
+.pull-2 {
+    left: 16.666666666%;
+}
+.pull-3 {
+    left: 25%;
+}
+.pull-4 {
+    left: 33.333333333%;
+}
+.pull-5 {
+    left: 41.666666666%;
+}
+.pull-6 {
+    left: 50%;
+}
+.pull-7 {
+    left: 58.333333333%;
+}
+.pull-8 {
+    left: 66.666666666%;
+}
+.pull-9 {
+    left: 75%;
+}
+.pull-10 {
+    left: 83.333333333%;
+}
+.pull-11 {
+    left: 91.666666666%;
+}
+.pull-12 {
+    left: 100%;
+}
+
+
+/*  Regular Computer & Tablet   */
+@media only screen and (min-device-width: 415px) {
+}
+
+
+/*  iPhone Portrait */
+@media only screen and (min-device-width: 360px) and (max-device-width: 414px) and (orientation: portrait) {
+}
