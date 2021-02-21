@@ -29,7 +29,7 @@ body {
         Oxygen, Ubuntu, Cantarell, 'Opens Sans','Helvetica Neue', sans-serif;
 }
 
-/*From the tutorial*/
+/*From the tutorial
 h1 {
     color: pink;
     font-size: 100px;
@@ -65,7 +65,7 @@ img {
     font-size: 25px;
     margin-left: 30px;
 }
-/*End of tutorial*/
+End of tutorial*/
 
 section {
     display: block;
