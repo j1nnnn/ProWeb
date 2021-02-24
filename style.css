@@ -29,43 +29,7 @@ body {
         Oxygen, Ubuntu, Cantarell, 'Opens Sans','Helvetica Neue', sans-serif;
 }
 
-/*From the tutorial
-h1 {
-    color: pink;
-    font-size: 100px;
-}
 
-img {
-    max-width: 250px;
-}
-
-.main-container{
-    width: 100%;
-    height: 100vh;
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.header {
-    width: auto;
-    border-bottom: 3pt solid pink;
-    padding: 0px 100px;
-    margin-bottom: 100px;
-}
-
-.main-content {
-    display: flex;
-    justify-content: space-between;
-    max-width: 800px;
-}
-
-.main-content p {
-    font-size: 25px;
-    margin-left: 30px;
-}
-End of tutorial*/
 
 section {
     display: block;
