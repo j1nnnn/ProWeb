@@ -23,7 +23,7 @@ body {
     height: 100vh;
     background-color: rgb(128, 81, 69);
     background-image: url("csbackgr.jpg");
-    opacity: 0.5;
+    opacity: 0.2;
 
     /*background repeat for horizontal*/
     /*background-repeat: repeat-x;*/
