@@ -40,19 +40,20 @@ body {
     overflow: auto;
 }
   
-  .navbar a {
+.navbar a {
     float: left;
-    padding: 30px;
+    padding: 20px;
+    margin: 10px;
     color: white;
     text-decoration: none;
     font-size: 17px;
 }
   
-  .navbar a:hover {
+.navbar a:hover {
     background-color: rgb(172, 122, 122);
 }
   
-  .active {
+.active {
     background-color: #225e48;
 }
   
