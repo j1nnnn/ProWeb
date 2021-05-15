@@ -34,31 +34,33 @@ body {
         Oxygen, Ubuntu, Cantarell, 'Opens Sans','Helvetica Neue', sans-serif;
 }
 /*horizontal buttons (from w3)*/
-.icon-bar{
+.navbar {
     width: 100%;
-    background-color: #555;
+    background-color: rgb(141, 93, 93);
     overflow: auto;
 }
-
-.icon-bar a{
+  
+  .navbar a {
     float: left;
-    width: 20%;
-    text-align: center;
-    padding: 2vw 0; /* vw for later (dynamic)*/
-    transition: all 0.3s ease;
+    padding: 30px;
     color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Opens Sans','Helvetica Neue', sans-serif;
-    font-size: 2vw; /* vw for later (dynamic)*/
     text-decoration: none;
+    font-size: 17px;
 }
-
-.icon-bar a:hover {
-    background-color: rgb(35, 30, 114);
+  
+  .navbar a:hover {
+    background-color: rgb(172, 122, 122);
 }
-
-.active {
-    background-color: #67a79c;
+  
+  .active {
+    background-color: #225e48;
+}
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
 }
 /*horizontal buttons (from w3)*/
 
