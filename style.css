@@ -55,7 +55,8 @@ body {
 }
   
 .navbar a:hover {
-    background-color: rgb(109 148 190);
+    background-color: rgb(97 127 153);
+    border-radius: 0.5vw
 }
   
 .active {
