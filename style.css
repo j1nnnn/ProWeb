@@ -35,14 +35,16 @@ body {
 }
 /* Aligned navbar (W3) */
 .navbar {
+    position: relative;
     width: 100%;
     background-color: rgb(131, 208, 221);
     overflow: auto;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    box-shadow: 0 4px 8px 0 rgba(19, 17, 17, 0.2), 0 6px 20px 0 rgba(10, 9, 9, 0.19);
     display: block;
 }
   
 .navbar a {
+    position: relative;
     float: left;
     padding: 15px;
     margin: 10px;
@@ -70,61 +72,77 @@ body {
 /* Hero Image and Text */
 .hero-image {
     background: url("cspic.jpg") no-repeat center;
-    background-size: auto;
+    background-size: cover;
+    margin-left: 200px;
+    margin-right: 200px;
     height: 400px;
     position: relative;
 }
 
 .hero-text {
     text-align: center;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: beige;
 }
 
-/* Main body of the first site */
-.main-container{
+.shadow {
+    position: absolute;
     width: 100%;
-    height: 15vh;
-    margin: 10pts;
-    display: flex; 
-    align-items: center;
-    justify-content: center;
+    height: 100%;
+    box-shadow: inset 3px 3px 10px 0 #000000;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+}
+
+/* Main body of the first site */
+.main-container {
+    width: 100%;
+    min-width: 850px;
+    margin: 0 auto;
 }
 
 .header {
     width: center;
     border-bottom: 3pt solid pink;
-    padding: 2vw;
-    margin-bottom: 100px;
+    padding: 1vw;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
 }
 
 .main-content {
+    position: relative;
+    margin-top: auto;
     justify-content: space-between;
-    max-width: 800px;
 }
 
 .main-content p {
-    font-size: 25px;
-    margin-left: 30px;
+    font-size: 20px;
+    text-align: center; 
 }
 
 /* These things that I do not know the name of yet */
 h1 {
     color: pink;
-    font-size: 85px;
+    font-size: 50px;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+h2 {
+    color: rgb(161, 133, 152);
+    text-align: left;
+    font-size: 45px;
+    text-shadow: 0 0 3px #be9595, 0 0 5px #44446d;
 }
 
 h3 {
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
-h4 {
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-}
 
 /*img {
     max-width: 250px;
